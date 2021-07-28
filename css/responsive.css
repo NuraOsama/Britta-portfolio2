@@ -1,0 +1,566 @@
+/*--media query--*/
+
+@media screen and (max-width:320px){
+
+    ._head_ h3 {
+        
+        font-size: 38px;
+    }
+ 
+    ._head_ h3::after {
+     
+        width:35px;
+    }
+
+    .navbar .navbar-nav {
+      
+        background-color: rgba(0, 0, 0, 0.9);
+        width:100%;
+        height: 740px;   
+        padding: 1rem 0; 
+  
+    }
+
+    .navbar .navbar-brand {
+        margin: 0 0 0 1.5rem;
+    }
+    .navbar .navbar-toggler {
+      
+        margin: 0 1.5rem 0.5rem 0;
+    }
+  
+    .navbar .navbar-nav .nav-item  .nav-link{
+
+        display: table;
+        margin: 0 auto;    
+        text-align: center;
+        font-size: 17px;
+        padding: 15px 0;
+
+    }  
+    .sticky.is-fixed  .navbar-nav{
+
+        background-color: rgba(0, 0, 0, 0.9);
+        border-top:1px solid #e7e7e7;
+      
+    }
+
+    .bk_image,
+    .about_work,
+    .about_actress,
+    .contact_sec{
+      
+        background-attachment: scroll;
+    }
+
+    .bk_image ._table_ .content h2 {
+        font-size: 60px;
+    }
+    .bk_image ._table_ .content .arrow {
+        position: absolute;
+        bottom: -120px;
+    }
+    .aboutmodeling_sec  .col-md-12,
+    .blog_sec  .col-md-12,
+    .contact_sec .col-lg-8,
+    .contact_sec .col-lg-4,
+    .about_actress .col-md-12,
+    .portfolio_sec ._mix_sec .col-lg-4{
+        
+        margin-bottom: 30px;
+
+    }   
+
+    .aboutmodeling_sec .about_modeling .content_modeling .text,
+    .copy_right_sec .copy_text h3 {
+
+        text-align: center;
+    }
+    
+    .aboutmodeling_sec .about_modeling .content_modeling ._btnn_{
+
+        margin:0 auto !important;
+    }
+    .portfolio_sec ._mix_sec .col-lg-4,
+    .aboutmodeling_sec .col-lg-3 {
+    
+
+        padding-left: 15px; 
+        padding-right: 15px; 
+
+    }
+    .portfolio_sec .mix_it ._mi_l ul li a {
+        
+        padding: 5px;
+    }
+    .copy_right_sec .icon_social ul {
+    
+       justify-content: center;
+       float:unset !important;
+   }
+   .copy_right_sec .copy_text h3 a{
+       margin-right: 0 !important;
+   }
+  }
+  @media screen and (max-width:375px) and (min-width:321px){
+
+    ._head_ h3::after {
+     
+        width:45px;
+    }
+
+    .navbar .navbar-nav {
+      
+        background-color: rgba(0, 0, 0, 0.9);
+        width:100%;
+        height: 740px;   
+        padding: 1rem 0; 
+  
+    }
+
+    .navbar .navbar-brand {
+        margin: 0 0 0 1.5rem;
+    }
+    .navbar .navbar-toggler {
+      
+        margin: 0 1.5rem 0.5rem 0;
+    }
+  
+    .navbar .navbar-nav .nav-item  .nav-link{
+
+        display: table;
+        margin: 0 auto;    
+        text-align: center;
+        font-size: 17px;
+        padding: 15px 0;
+
+    }  
+    .sticky.is-fixed  .navbar-nav{
+
+        background-color: rgba(0, 0, 0, 0.9);
+        border-top:1px solid #e7e7e7;
+      
+    }
+
+    .bk_image,
+    .about_work,
+    .about_actress,
+    .contact_sec{
+      
+        background-attachment: scroll;
+    }
+
+    .bk_image ._table_ .content h2 {
+        font-size: 60px;
+    }
+    .bk_image ._table_ .content .arrow {
+        position: absolute;
+        bottom: -120px;
+    }
+    .aboutmodeling_sec  .col-md-12,
+    .blog_sec  .col-md-12,
+    .contact_sec .col-lg-8,
+    .contact_sec .col-lg-4,
+    .about_actress .col-md-12,
+    .portfolio_sec ._mix_sec .col-lg-4{
+        
+        margin-bottom: 30px;
+
+    }   
+
+    .aboutmodeling_sec .about_modeling .content_modeling .text,
+    .copy_right_sec .copy_text h3 {
+
+        text-align: center;
+    }
+    
+    .aboutmodeling_sec .about_modeling .content_modeling ._btnn_{
+
+        margin:0 auto !important;
+    }
+    .portfolio_sec ._mix_sec .col-lg-4,
+    .aboutmodeling_sec .col-lg-3 {
+    
+
+        padding-left: 15px; 
+        padding-right: 15px; 
+
+    }
+    .portfolio_sec .mix_it ._mi_l ul li a {
+        
+        padding: 5px 10px;
+    }
+    .copy_right_sec .icon_social ul {
+    
+       justify-content: center;
+       float:unset !important;
+   }
+  }
+
+  @media screen and (max-width:425px) and (min-width:376px){
+    ._head_ h3::after {
+     
+        width: 70px;
+    }
+
+
+    .navbar .navbar-nav {
+      
+        background-color: rgba(0, 0, 0, 0.9);
+        width:100%;
+        height: 740px;   
+        padding: 1rem 0; 
+  
+    }
+    .navbar .navbar-brand {
+        margin: 0 0 0 1.5rem;
+    }
+    .navbar .navbar-toggler {
+      
+        margin: 0 1.5rem 0.5rem 0;
+    }
+  
+    .navbar .navbar-nav .nav-item  .nav-link{
+
+        display: table;
+        margin: 0 auto;    
+        text-align: center;
+        font-size: 17px;
+        padding: 15px 0;
+
+    }  
+    .sticky.is-fixed  .navbar-nav{
+
+        background-color: rgba(0, 0, 0, 0.9);
+        border-top:1px solid #e7e7e7;
+      
+    }
+    .bk_image,
+    .about_work,
+    .about_actress,
+    .contact_sec{
+      
+        background-attachment: scroll;
+    }
+    .bk_image ._table_ .content .arrow {
+        position: absolute;
+        bottom: -120px;
+    }
+    .aboutmodeling_sec  .col-md-12,
+    .blog_sec  .col-md-12,
+    .contact_sec .col-lg-8,
+    .contact_sec .col-lg-4,
+    .about_actress .col-md-12,
+    .portfolio_sec ._mix_sec .col-lg-4{
+        
+        margin-bottom: 30px;
+
+    }   
+
+    .aboutmodeling_sec .about_modeling .content_modeling .text,
+    .copy_right_sec .copy_text h3 {
+
+        text-align: center;
+    }
+    
+    .aboutmodeling_sec .about_modeling .content_modeling ._btnn_{
+
+        margin:0 auto !important;
+    }
+    .portfolio_sec ._mix_sec .col-lg-4,
+    .aboutmodeling_sec .col-lg-3 {
+    
+
+        padding-left: 15px; 
+        padding-right: 15px; 
+
+    }
+    .portfolio_sec .mix_it ._mi_l ul li a {
+        
+        padding: 5px 15px;
+    }
+    .copy_right_sec .icon_social ul {
+    
+       justify-content: center;
+       float:unset !important;
+   }
+
+  }
+
+  @media screen and (max-width:575px) and (min-width:426px){
+
+    .navbar .navbar-nav {
+      
+        background-color: rgba(0, 0, 0, 0.9);
+        width:100%;
+        height: 740px;   
+        padding: 1rem 0; 
+  
+    }
+    
+  
+    .navbar .navbar-brand {
+        margin: 0 0 0 1.5rem;
+    }
+    .navbar .navbar-toggler {
+      
+        margin: 0 1.5rem 0.5rem 0;
+    }
+  
+    .navbar .navbar-nav .nav-item  .nav-link{
+
+        display: table;
+        margin: 0 auto;    
+        text-align: center;
+        font-size: 17px;
+        padding: 15px 0;
+
+    }  
+    .sticky.is-fixed  .navbar-nav{
+
+        background-color: rgba(0, 0, 0, 0.9);
+        border-top:1px solid #e7e7e7;
+      
+    }
+    .bk_image,
+    .about_work,
+    .about_actress,
+    .contact_sec{
+      
+        background-attachment: scroll;
+    }
+    .bk_image ._table_ .content .arrow {
+        position: absolute;
+        bottom: -120px;
+    }
+    
+    .aboutmodeling_sec  .col-md-12,
+    .blog_sec  .col-md-12,
+    .contact_sec .col-lg-8,
+    .contact_sec .col-lg-4,
+    .about_actress .col-md-12,
+    .portfolio_sec ._mix_sec .col-lg-4{
+        
+        margin-bottom: 30px;
+
+    }   
+
+    .aboutmodeling_sec .about_modeling .content_modeling .text,
+    .copy_right_sec .copy_text h3 {
+
+        text-align: center;
+    }
+    
+    .aboutmodeling_sec .about_modeling .content_modeling ._btnn_{
+
+        margin:0 auto !important;
+    }
+    .portfolio_sec ._mix_sec .col-lg-4,
+    .aboutmodeling_sec .col-lg-3 {
+    
+
+        padding-left: 15px; 
+        padding-right: 15px; 
+
+    }
+    .copy_right_sec .icon_social ul {
+    
+       justify-content: center;
+       float:unset !important;
+   }
+
+  }
+  @media screen and (max-width:766px) and (min-width:576px){
+
+    .navbar .navbar-nav {
+      
+        background-color: rgba(0, 0, 0, 0.9);
+        width:100%;
+        height: 740px;   
+        padding: 1rem 0; 
+  
+    }
+    .navbar .navbar-brand {
+        margin: 0 0 0 1.5rem;
+    }
+    .navbar .navbar-toggler {
+      
+        margin: 0 1.5rem 0.5rem 0;
+    }
+  
+    .navbar .navbar-nav .nav-item  .nav-link{
+
+        display: table;
+        margin: 0 auto;    
+        text-align: center;
+        font-size: 17px;
+        padding: 15px 0;
+
+    }  
+    .sticky.is-fixed  .navbar-nav{
+
+        background-color: rgba(0, 0, 0, 0.9);
+        border-top:1px solid #e7e7e7;
+      
+    }
+    .bk_image,
+    .about_work,
+    .about_actress,
+    .contact_sec{
+      
+        background-attachment: scroll;
+    }
+   
+    .aboutmodeling_sec  .col-md-12,
+    .blog_sec  .col-md-12,
+    .contact_sec .col-lg-8,
+    .contact_sec .col-lg-4,
+    .about_actress .col-md-12,
+    .portfolio_sec ._mix_sec .col-lg-4 {
+
+        margin-bottom: 30px;
+    } 
+    .portfolio_sec ._mix_sec .col-lg-4, .aboutmodeling_sec .col-lg-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+    }  
+    .aboutmodeling_sec .about_modeling .content_modeling .text{
+
+        text-align: center;
+    }
+    
+    .aboutmodeling_sec .about_modeling .content_modeling ._btnn_{
+
+        margin:0 auto !important;
+    }
+
+  }
+  @media screen and (max-width:768px) and (min-width:767px){
+
+    .navbar .navbar-nav {
+      
+        background-color: rgba(0, 0, 0, 0.9);
+        width:100%;
+        height: 740px;   
+        padding: 1rem 0; 
+  
+    }
+    .navbar .navbar-brand {
+        margin: 0 0 0 1.5rem;
+    }
+    .navbar .navbar-toggler {
+      
+        margin: 0 1.5rem 0.5rem 0;
+    }
+  
+    .navbar .navbar-nav .nav-item  .nav-link{
+
+        display: table;
+        margin: 0 auto;    
+        text-align: center;
+        font-size: 17px;
+        padding: 15px 0;
+
+    }  
+    .sticky.is-fixed  .navbar-nav{
+
+        background-color: rgba(0, 0, 0, 0.9);
+        border-top:1px solid #e7e7e7;
+      
+    }
+    .bk_image,
+    .about_work,
+    .about_actress,
+    .contact_sec{
+      
+        background-attachment: scroll;
+    }
+   
+    .aboutmodeling_sec  .col-md-12,
+    .blog_sec  .col-md-12,
+    .contact_sec .col-lg-8,
+    .contact_sec .col-lg-4,
+    .about_actress .col-md-12{
+
+        margin-bottom: 30px;
+    }   
+
+    .aboutmodeling_sec .about_modeling .content_modeling .text{
+
+        text-align: center;
+    }
+    
+    .aboutmodeling_sec .about_modeling .content_modeling ._btnn_{
+
+        margin:0 auto !important;
+    }
+ 
+
+  }
+
+  @media screen and (max-width:991px) and (min-width:769px){
+
+    .navbar .navbar-nav {
+      
+        background-color: rgba(0, 0, 0, 0.9);
+        width:100%;
+        height: 740px;   
+        padding: 1rem 0; 
+  
+    }
+  
+    .navbar .navbar-brand {
+        margin: 0 0 0 1.5rem;
+    }
+    .navbar .navbar-toggler {
+      
+        margin: 0 1.5rem 0.5rem 0;
+    }
+  
+    .navbar .navbar-nav .nav-item  .nav-link{
+
+        display: table;
+        margin: 0 auto;    
+        text-align: center;
+        font-size: 17px;
+        padding: 15px 0;
+
+    }  
+    .sticky.is-fixed  .navbar-nav{
+
+        background-color: rgba(0, 0, 0, 0.9);
+        border-top:1px solid #e7e7e7;
+      
+    }
+    .bk_image,
+    .about_work,
+    .about_actress,
+    .contact_sec{
+      
+        background-attachment: scroll;
+    }
+  
+    
+    .aboutmodeling_sec  .col-md-12,
+    .blog_sec  .col-md-12,
+    .contact_sec .col-lg-8,
+    .contact_sec .col-lg-4,
+    .about_actress .col-md-12{
+
+        margin-bottom: 30px;
+    }   
+
+    .aboutmodeling_sec .about_modeling .content_modeling .text{
+
+        text-align: center;
+    }
+    
+    .aboutmodeling_sec .about_modeling .content_modeling ._btnn_{
+
+        margin:0 auto !important;
+    }
+
+ 
+  }
+
+ /*--//media query--*/
